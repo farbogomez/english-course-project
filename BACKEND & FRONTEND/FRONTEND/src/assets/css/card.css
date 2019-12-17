@@ -1,0 +1,97 @@
+.box-level-card{
+    
+    height: 100vh;
+    width: 100%;
+  
+}
+
+.e-card{
+    width: 35%;
+    max-height: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transform-origin: center;
+    transform: scale(0);
+    animation: scaleTo .2s ease-out both;
+}
+
+.e-card__body{
+        width: 50%;
+        height: 80px;
+        background-color: rgba(#fff,1);
+        box-shadow:-1px 1px 2px 1px rgba( #000000, .17) ;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+       
+    }
+    .e-card__body .btn-box{
+        margin: 0 auto;
+    }
+
+    .e-card-float{
+    position: absolute;
+
+    }
+
+    .e-card-float__5{
+        left: 78%;
+    }
+    .e-card-float__4{
+        left: 50%;
+        top: 30%;
+    }
+    .e-card-float__3{
+        left: 30%;
+        top: 1%;
+
+    }
+    .e-card-float__2{
+       top: 35%;
+       left: 20%;
+    }
+    .e-card-float__1{
+        left: 5%;
+        top: 5%;
+     }
+    
+
+@keyframes scaleTo{
+ to{
+   transform: scale(1);
+ }
+}
+.card-level{
+    
+    width: 80px;
+    height: 80px;
+    padding: 2em;
+  fill: rgba(#fff,1);
+}
+.blevel{
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+    
+  
+}
+.icon-level-item{
+    position: relative;
+    z-index: 2;
+    
+}
+
+.icon-level{
+    position: relative;
+}
+
+.item-box{
+    position: relative;
+    z-index: 2;
+}
+
+
+

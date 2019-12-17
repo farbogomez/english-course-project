@@ -1,0 +1,94 @@
+.box1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../Start2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  display: inline-flex;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ---------------------------------           START          --------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+.box1 .start {
+  height: 300px;
+  width: 300px;
+  background-image: url("../Inicio.svg");
+  margin-left: 330px;
+  position: relative;
+  border: rgb(74, 175, 206) solid 1px;
+  border-radius: 20px 20px;
+  box-shadow: 2px 2px 4px rgb(180, 179, 179);
+  transition: 0.2s ease-out;
+}
+
+.box1 .start:hover {
+  box-shadow: rgb(173, 173, 173) 4px 4px 8px;
+  cursor: pointer;
+}
+
+.box1 .start div {
+  color: white;
+  height: 0px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.438);
+  border-radius: 20px 20px;
+  font-weight: bold;
+  font: 25px "verdana";
+  text-align: center;
+  transition: 0.1s ease-in;
+}
+
+.box1 .start:hover div {
+  height: 300px;
+  padding-top: 110px;
+}
+
+.box1 .start:hover div::before {
+  content: "Iniciar curso desde cero";
+  text-shadow: blue 1px 1px 3px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ---------------------------------           TEST          --------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+.box1 .test div {
+  color: white;
+  height: 0px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.438);
+  border-radius: 20px 20px;
+  font-weight: bold;
+  font: 25px "verdana";
+  text-align: center;
+  transition: 0.1s ease-in;
+}
+
+.box1 .test:hover div {
+  height: 300px;
+  padding-top: 110px;
+}
+
+.box1 .test:hover div::before {
+  content: "Prueba tu nivel de inglés";
+  text-shadow: blue 1px 1px 3px;
+}
+
+.box1 .test {
+  height: 300px;
+  width: 300px;
+  background-image: url("../Test.svg");
+  margin-left: 80px;
+  border: rgb(74, 175, 206) solid 1px;
+  border-radius: 20px 20px;
+  box-shadow: 2px 2px 4px rgb(180, 179, 179);
+  transition: 0.2s ease-out;
+}
+
+.box1 .test:hover {
+  box-shadow: rgb(173, 173, 173) 4px 4px 8px;
+  cursor: pointer;
+}

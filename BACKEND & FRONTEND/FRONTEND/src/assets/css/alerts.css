@@ -1,0 +1,41 @@
+.modal3 {
+  position: fixed; /* Stay in place */
+  z-index: 20; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+#alerta #x {
+  color: #df4e4e;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1010px;
+}
+
+#alerta #x:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#alerta #x2 {
+  color: #e68405;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1050px;
+}
+
+#alerta #x2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#alerta {
+  position: relative;
+}

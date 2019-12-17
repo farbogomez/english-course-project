@@ -1,0 +1,334 @@
+@import "register.css";
+@import "helloworld.css";
+@import "alerts.css";
+
+/* .icon-logo {
+  width: 30%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 1em;
+}
+
+.motivation-box {
+  padding: 0.4em 4em;
+  display: inline-block;
+  border: 1px solid rgb(0, 68, 255);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(139, 222, 255);
+}
+
+.display {
+  display: none;
+}
+
+.a-card {
+  width: 40%;
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 1px 2px 3px rgba(#000000, 0.17);
+  border-radius: 5px;
+}
+
+.boxed {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../Freedom.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.box {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../Freedom.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(88, 88, 88) 2px 2px 15px;
+}
+
+.box #h1 h1 {
+  color: white;
+  padding-top: 180px;
+  padding-left: 100px;
+  font: 4em "verdana";
+}
+
+.box #h1 p {
+  color: white;
+  padding-top: 23px;
+  padding-left: 100px;
+  font: 15px "verdana";
+}
+
+.box #btn {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+#navBar.theme--light.v-sheet {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.397);
+  box-shadow: none;
+  z-index: 10;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+/* LOGIN */
+
+.modal2 {
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 170px; /* Location of the box */
+  padding-left: 490px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.login {
+  width: 430px;
+  position: relative;
+  left: -6%;
+  top: 0%;
+  transform: scale(1);
+  animation: transform 0.4s ease-out;
+}
+
+.close2 {
+  margin-left: 320px;
+}
+
+.close2 {
+  color: #ffffff;
+  float: right;
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 8px;
+  z-index: 10;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+/* REGISTER */
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  padding-left: 470px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.registro {
+  width: 500px;
+}
+
+.registrarse {
+  width: 500px;
+  position: relative;
+  left: -6%;
+  top: 0%;
+  transform: scale(1);
+  animation: transform 0.4s ease-out;
+}
+
+@keyframes transform {
+  from {
+    transfrom: scale(0);
+  }
+  to {
+    transfrom: scale(1);
+  }
+}
+
+#barRegistro {
+  background-color: #1e88e5;
+  width: 500px;
+  height: 70px;
+}
+
+#barRegistro h1 {
+  color: white;
+  padding-left: 135px;
+  padding-top: 3px;
+  font-size: 30px;
+}
+
+#barRegistro .close {
+  margin-left: 100px;
+}
+
+#formRegistro {
+  border: 1px solid #c4c4c4;
+  background: rgba(255, 255, 255);
+  border-radius: 0px 0px 5px 5px;
+}
+
+#formRegistro #nombre,
+#last,
+#user,
+#password2 {
+  width: 82%;
+  margin-left: 42px;
+}
+
+#nombre {
+  margin-top: 25px;
+}
+
+#registrar {
+  background-color: #1e88e5;
+  width: 260px;
+  margin-left: 120px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 8px;
+  z-index: 10;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#title {
+  width: 500px;
+  background-color: rgb(37, 154, 201);
+  margin-top: 80px;
+  border: 7px solid rgb(64, 190, 240);
+  border-radius: 30px 30px;
+}
+
+#title h1 {
+  color: white;
+  font: 3em "verdana";
+  text-align: center;
+}
+
+/*card*/
+/* .box-level-card {
+  height: 100vh;
+  width: 100%;
+} */
+
+.e-card {
+  width: 35%;
+  max-height: 150px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transform-origin: center;
+  transform: scale(0);
+  animation: scaleTo 0.2s ease-out both;
+}
+
+.e-card__body {
+  width: 50%;
+  height: 80px;
+  background-color: rgba(#fff, 1);
+  box-shadow: -1px 1px 2px 1px rgba(#000000, 0.17);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.e-card__body .btn-box {
+  margin: 0 auto;
+}
+
+.e-card-float {
+  position: absolute;
+}
+
+.e-card-float__5 {
+  left: 74%;
+}
+.e-card-float__4 {
+  left: 48%;
+  top: 33%;
+}
+.e-card-float__3 {
+  left: 31%;
+  top: 1%;
+}
+.e-card-float__2 {
+  top: 45%;
+  left: 17%;
+}
+.e-card-float__1 {
+  left: 5%;
+  top: 15%;
+}
+
+@keyframes scaleTo {
+  to {
+    transform: scale(1);
+  }
+}
+.card-level {
+  width: 80px;
+  height: 80px;
+  padding: 2em;
+  fill: rgba(#fff, 1);
+}
+.blevel {
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+}
+.icon-level-item {
+  position: relative;
+  z-index: 2;
+}
+
+.icon-level {
+  position: relative;
+}
+
+.item-box {
+  position: relative;
+  z-index: 2;
+}
